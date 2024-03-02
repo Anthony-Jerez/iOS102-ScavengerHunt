@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		600C87E32B92D6630051D641 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600C87E22B92D6630051D641 /* AppDelegate.swift */; };
 		600C87E52B92D6630051D641 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600C87E42B92D6630051D641 /* SceneDelegate.swift */; };
-		600C87E72B92D6630051D641 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600C87E62B92D6630051D641 /* ViewController.swift */; };
 		600C87EA2B92D6630051D641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600C87E82B92D6630051D641 /* Main.storyboard */; };
 		600C87EC2B92D6640051D641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600C87EB2B92D6640051D641 /* Assets.xcassets */; };
 		600C87EF2B92D6640051D641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600C87ED2B92D6640051D641 /* LaunchScreen.storyboard */; };
+		600C87F72B92E4670051D641 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600C87F62B92E4670051D641 /* TaskListViewController.swift */; };
+		600C87FB2B92E55E0051D641 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600C87FA2B92E55E0051D641 /* Task.swift */; };
+		600C87FF2B92E6600051D641 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600C87FE2B92E6600051D641 /* TaskCell.swift */; };
+		600C88012B92E84A0051D641 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600C88002B92E84A0051D641 /* TaskDetailViewController.swift */; };
+		600C88032B92F1BD0051D641 /* TaskComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600C88022B92F1BD0051D641 /* TaskComposeViewController.swift */; };
+		600C88052B92F43B0051D641 /* TaskAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600C88042B92F43B0051D641 /* TaskAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		600C87DF2B92D6630051D641 /* project1-scavenger-hunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project1-scavenger-hunt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		600C87E22B92D6630051D641 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		600C87E42B92D6630051D641 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		600C87E62B92D6630051D641 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		600C87E92B92D6630051D641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		600C87EB2B92D6640051D641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		600C87EE2B92D6640051D641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		600C87F02B92D6640051D641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		600C87F62B92E4670051D641 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		600C87FA2B92E55E0051D641 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		600C87FE2B92E6600051D641 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		600C88002B92E84A0051D641 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
+		600C88022B92F1BD0051D641 /* TaskComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskComposeViewController.swift; sourceTree = "<group>"; };
+		600C88042B92F43B0051D641 /* TaskAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				600C87E22B92D6630051D641 /* AppDelegate.swift */,
 				600C87E42B92D6630051D641 /* SceneDelegate.swift */,
-				600C87E62B92D6630051D641 /* ViewController.swift */,
 				600C87E82B92D6630051D641 /* Main.storyboard */,
 				600C87EB2B92D6640051D641 /* Assets.xcassets */,
 				600C87ED2B92D6640051D641 /* LaunchScreen.storyboard */,
 				600C87F02B92D6640051D641 /* Info.plist */,
+				600C87F62B92E4670051D641 /* TaskListViewController.swift */,
+				600C87FA2B92E55E0051D641 /* Task.swift */,
+				600C87FE2B92E6600051D641 /* TaskCell.swift */,
+				600C88002B92E84A0051D641 /* TaskDetailViewController.swift */,
+				600C88022B92F1BD0051D641 /* TaskComposeViewController.swift */,
+				600C88042B92F43B0051D641 /* TaskAnnotationView.swift */,
 			);
 			path = "project1-scavenger-hunt";
 			sourceTree = "<group>";
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				600C87E72B92D6630051D641 /* ViewController.swift in Sources */,
+				600C88012B92E84A0051D641 /* TaskDetailViewController.swift in Sources */,
+				600C87FB2B92E55E0051D641 /* Task.swift in Sources */,
 				600C87E32B92D6630051D641 /* AppDelegate.swift in Sources */,
+				600C88032B92F1BD0051D641 /* TaskComposeViewController.swift in Sources */,
+				600C88052B92F43B0051D641 /* TaskAnnotationView.swift in Sources */,
 				600C87E52B92D6630051D641 /* SceneDelegate.swift in Sources */,
+				600C87F72B92E4670051D641 /* TaskListViewController.swift in Sources */,
+				600C87FF2B92E6600051D641 /* TaskCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
